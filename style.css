@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    background-image: url('grid.jpg');
+}
+*{
+    font-family: monospace
+}
+p{
+    color: grey;
+    font-family: "Space Mono", monospace;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+#card{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    position: absolute;
+}
+textarea{
+    font-size: 1rem;
+}
+button{
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    border: .1px solid black;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+body{
+    background-color: aliceblue;
+}
